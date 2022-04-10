@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="" id="loginForm">
+        <h3>Login</h3>
+        <div>
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email">
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password">
+        </div>
+        <div class="">
+            <button id="login">Submit</button>
+        </div>
+    </form>
+
+    <p id="welcomeText"></p>
+    <form action="" id="fundwalletForm">
+        <div>
+            <input type="text" name="fundwalletEmail" id="fundwalletEmail">
+        </div>
+        <div>
+            <input type="text" name="fundwalletPhone" id="fundwalletPhone">
+        </div>
+        <div>
+            <input type="text" name="firstName" id="firstName">
+        </div>
+        <div>
+            <input type="text" name="lastName" id="lastName">
+        </div>
+        <div>
+            <label for="password">Amount:</label>
+            <input type="number" name="amount" id="amount">
+        </div>
+        <div class="">
+            <button id="fundBtn">Fund Wallet</button>
+        </div>
+    </form>
+    <script src="https://js.paystack.co/v1/inline.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- <script src="https://unpkg.com/axios/dist/axios.min.js"></script> -->
+    <script src="wallet.js"></script>
+</body>
+</html>
